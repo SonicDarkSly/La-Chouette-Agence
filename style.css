@@ -511,7 +511,8 @@ button {
 }
 
 .scrollToTop {
-    background: #333333;
+    background: #424242;
+    color: #808080;
     width: 40px;
     height: 40px;
     position: fixed;
