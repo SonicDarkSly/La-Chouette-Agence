@@ -7,6 +7,24 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.blockquote_signature {
+    font-size: 20px;
+}
+
+.blockquote_signature::before {
+    content: '\2014 \00A0';
+}
+
+.footer_text{
+    color: #1C1C1C;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -103,6 +121,10 @@ a:hover {
     color: rgba(255, 255, 255, .7);
 }
 
+.d-bloc .footer_text{
+    color: rgba(32, 32, 32, 0.7);
+}
+
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
@@ -135,6 +157,7 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
+
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -781,13 +804,18 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    width: max-content;
+    background: rgba(0, 0, 0, 0.884);
+    font-weight: 600;
+    border-color: #eea684;
+    color: #eea684;
+    border-width: 2px;
+    font-size: 17px;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #eea684;
+    color: #FFFFFF;
 }
 
 .ltc-white {
