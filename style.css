@@ -557,7 +557,7 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: inline-block;
     text-align: center;
     margin-left: 19px;
 }
